@@ -1,0 +1,2 @@
+# Save-model-using-pickle-and-joblib
+Training machine learning model can be quite time consuming if training dataset is very big. In this case it makes sense to train a model and save it to a file so that later on while making predictions you can just load that model from a file and you don't need to train it every time. Pickle and sklearn joblib modules can be used for this purpose. Joblib seems to be more efficient with big numpy arrays hence it is preferred when you have many numpy objects involved in your training step.
